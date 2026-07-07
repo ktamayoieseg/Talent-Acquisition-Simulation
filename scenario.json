@@ -1,0 +1,219 @@
+{
+  "game_title": "Talent Acquisition Lab: Maison Nova",
+  "role_title": "Chef de projet marketing digital & omnicanal",
+  "company": {
+    "name": "Maison Nova",
+    "description": "A fictional French home and lifestyle retailer with 62 stores in France and Belgium, 820 employees, and an e-commerce business representing 28% of revenue.",
+    "location": "Lille, France (hybrid)",
+    "language": "English-language classroom prototype with French-market role terminology"
+  },
+  "rough_hiring_need": "The Marketing Director says: ‘We need a dynamic, digital-native project manager to launch our new loyalty programme before the Christmas trading period. Ideally, the person has at least five years in retail, comes from a top school, knows e-commerce, and can start immediately. They will coordinate marketing, IT and stores. Please find someone quickly.’",
+  "role_context": "Maison Nova is replacing separate in-store and online loyalty schemes with one programme covering customer accounts, points, personalised offers and store adoption. The planned launch is in 24 weeks.",
+  "intake_limit": 7,
+  "intake_questions": [
+    {
+      "id": "business_outcome",
+      "question": "What business problem must this hire solve, and what outcome should the project create?",
+      "response": "Customers cannot currently earn and redeem rewards consistently across stores and e-commerce. We want one customer view, stronger repeat purchasing and a simpler experience across France and Belgium.",
+      "category": "High-value"
+    },
+    {
+      "id": "deliverables",
+      "question": "What must the person deliver during the first six months?",
+      "response": "They must establish governance, confirm requirements, manage the vendor and internal workstreams, coordinate a pilot in ten stores, prepare store training, and deliver a go/no-go recommendation for the national launch.",
+      "category": "High-value"
+    },
+    {
+      "id": "success_measures",
+      "question": "How will success be measured?",
+      "response": "On-time pilot delivery, controlled budget, store readiness, low defect levels, customer enrolment, programme activation and early repeat-purchase indicators. The project sponsor also expects clear risk reporting.",
+      "category": "High-value"
+    },
+    {
+      "id": "stakeholders",
+      "question": "Which stakeholders and teams will the project manager need to influence?",
+      "response": "Marketing owns the programme. IT owns integration and data security. Store Operations represents 62 stores. Customer Service, Finance, Legal/DPO and an external technology vendor are also involved. The role reports to the Head of Omnichannel Marketing.",
+      "category": "High-value"
+    },
+    {
+      "id": "constraints",
+      "question": "What are the critical timeline, budget and operational constraints?",
+      "response": "The pilot must begin in 16 weeks and the launch decision is due in week 22. The implementation budget is €650,000, with little tolerance for disruption during peak trading. Some stores have limited digital infrastructure.",
+      "category": "High-value"
+    },
+    {
+      "id": "must_have_trainable",
+      "question": "Which capabilities are essential on day one, and which can be learned?",
+      "response": "Essential: cross-functional project delivery, stakeholder influence, structured planning, risk management and comfort with data. Retail or loyalty experience is useful but can be learned. Coding is not required. A specific school background is not required.",
+      "category": "High-value"
+    },
+    {
+      "id": "risks",
+      "question": "What are the main risks or sources of difficulty in this role?",
+      "response": "Stakeholders disagree about scope, store managers are worried about workload, customer data requirements are sensitive, and the vendor has an ambitious timetable. The project manager will need to escalate issues without damaging relationships.",
+      "category": "Useful"
+    },
+    {
+      "id": "team_resources",
+      "question": "What team, authority and resources will the project manager have?",
+      "response": "They will lead a matrix team rather than have direct reports. Workstream leads remain in their functions. The person can recommend decisions, but major scope and budget decisions sit with the steering committee.",
+      "category": "Useful"
+    },
+    {
+      "id": "employment_offer",
+      "question": "What salary, contract and working arrangements can we communicate?",
+      "response": "Permanent contract, target salary €52,000–€60,000 plus a 10% bonus, Lille-based with two remote days per week. Travel to stores in France and occasionally Belgium is expected.",
+      "category": "Useful"
+    },
+    {
+      "id": "culture_fit",
+      "question": "What type of personality or culture fit do you prefer?",
+      "response": "I tend to like energetic people who speak confidently, but I recognise that this is a preference rather than a job requirement. The real need is someone who creates clarity and builds commitment across functions.",
+      "category": "Low-value / bias risk"
+    },
+    {
+      "id": "competitor_only",
+      "question": "Which competitor companies should candidates come from?",
+      "response": "A competitor background might shorten the learning curve, but agency, consulting, e-commerce or other multi-site transformation experience could also be relevant. We should not restrict the search to competitors.",
+      "category": "Low-value / narrowing risk"
+    },
+    {
+      "id": "school_pedigree",
+      "question": "Which grandes écoles or universities should we target?",
+      "response": "There is no evidence that a particular school is necessary. I mentioned a top school because previous hires had that background, but demonstrated project results matter more.",
+      "category": "Low-value / bias risk"
+    }
+  ],
+  "competencies": [
+    {
+      "id": "project_planning",
+      "label": "Project planning and delivery",
+      "description": "Structures complex work, milestones, resources and dependencies to deliver agreed outcomes."
+    },
+    {
+      "id": "stakeholder_management",
+      "label": "Stakeholder management and influence",
+      "description": "Builds alignment and secures decisions across functions without relying on formal authority."
+    },
+    {
+      "id": "change_management",
+      "label": "Change management",
+      "description": "Prepares users and operational teams to adopt new processes and ways of working."
+    },
+    {
+      "id": "customer_orientation",
+      "label": "Customer orientation",
+      "description": "Connects project decisions to customer needs and the omnichannel experience."
+    },
+    {
+      "id": "data_decision",
+      "label": "Data-informed decision making",
+      "description": "Uses relevant data and KPIs to prioritise, evaluate and communicate decisions."
+    },
+    {
+      "id": "risk_management",
+      "label": "Risk and issue management",
+      "description": "Anticipates delivery risks, establishes mitigations and escalates appropriately."
+    },
+    {
+      "id": "communication",
+      "label": "Communication",
+      "description": "Communicates clearly to senior leaders, specialists and operational audiences."
+    },
+    {
+      "id": "commercial_awareness",
+      "label": "Commercial awareness",
+      "description": "Balances customer value, cost, timing and business impact."
+    },
+    {
+      "id": "digital_fluency",
+      "label": "Digital and omnichannel fluency",
+      "description": "Understands digital customer journeys and can work effectively with technical specialists."
+    },
+    {
+      "id": "retail_experience",
+      "label": "Years of retail experience",
+      "description": "A background characteristic rather than an observable competency; potentially useful evidence but not a competency itself."
+    }
+  ],
+  "round2": {
+    "budget": 12000,
+    "budget_note": "All costs are fictional campaign costs for the simulation, not current market prices.",
+    "channels": [
+      {
+        "id": "internal_mobility",
+        "name": "Internal mobility campaign",
+        "cost": 500,
+        "description": "Advertise internally and invite nominations from store operations, marketing and digital teams.",
+        "tags": ["internal", "active", "broad"]
+      },
+      {
+        "id": "apec",
+        "name": "Apec job posting",
+        "cost": 1800,
+        "description": "Experienced professional audience in the French market.",
+        "tags": ["external", "active", "broad"]
+      },
+      {
+        "id": "welcome_jungle",
+        "name": "Welcome to the Jungle campaign",
+        "cost": 2600,
+        "description": "Employer-brand-led posting attractive to digital and project professionals.",
+        "tags": ["external", "active", "employer_brand", "digital"]
+      },
+      {
+        "id": "linkedin_sourcing",
+        "name": "LinkedIn direct sourcing sprint",
+        "cost": 3500,
+        "description": "Target passive project, CRM, e-commerce and omnichannel profiles with personalised outreach.",
+        "tags": ["external", "passive", "targeted", "digital"]
+      },
+      {
+        "id": "referrals",
+        "name": "Employee referral campaign",
+        "cost": 1500,
+        "description": "Mobilise employee networks with a targeted referral message and incentive.",
+        "tags": ["external", "passive", "network"]
+      },
+      {
+        "id": "indeed",
+        "name": "Sponsored general job-board campaign",
+        "cost": 2200,
+        "description": "High reach among active applicants, with variable profile fit.",
+        "tags": ["external", "active", "broad"]
+      },
+      {
+        "id": "specialist_board",
+        "name": "Specialist digital-marketing job board",
+        "cost": 1800,
+        "description": "Smaller but more targeted audience in CRM, e-commerce and digital marketing.",
+        "tags": ["external", "active", "targeted", "digital"]
+      },
+      {
+        "id": "agency",
+        "name": "Recruitment agency assignment",
+        "cost": 9000,
+        "description": "Outsource search and initial screening to a generalist agency.",
+        "tags": ["external", "passive", "outsourced"]
+      },
+      {
+        "id": "school_alumni",
+        "name": "Business-school alumni boards",
+        "cost": 1200,
+        "description": "Reach alumni networks, with a tendency toward earlier-career profiles.",
+        "tags": ["external", "active", "network"]
+      },
+      {
+        "id": "social_organic",
+        "name": "Organic Instagram and TikTok posts",
+        "cost": 600,
+        "description": "Low-cost awareness channel with limited targeting for this experienced role.",
+        "tags": ["external", "active", "broad", "social"]
+      }
+    ],
+    "outreach_candidate": {
+      "name": "Camille Bernard",
+      "profile": "Project Manager at a digital agency in Lyon. Four years of experience delivering CRM and loyalty projects for retail clients, including a multi-country app rollout. Strong client-facing background, not actively applying, and interested in moving in-house. Prefers hybrid work and wants clearer ownership of business outcomes."
+    }
+  }
+}

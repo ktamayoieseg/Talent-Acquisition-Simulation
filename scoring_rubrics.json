@@ -1,0 +1,203 @@
+{
+  "round1": {
+    "intake": {
+      "max_points": 20,
+      "question_points": {
+        "business_outcome": 3,
+        "deliverables": 3,
+        "success_measures": 3,
+        "stakeholders": 3,
+        "constraints": 3,
+        "must_have_trainable": 3,
+        "risks": 2,
+        "team_resources": 2,
+        "employment_offer": 2,
+        "culture_fit": 0,
+        "competitor_only": 0,
+        "school_pedigree": 0
+      }
+    },
+    "hiring_brief": {
+      "max_points": 40,
+      "fields": {
+        "business_objective": {
+          "max_points": 6,
+          "concepts": [
+            {"label": "unified online and store loyalty experience", "points": 2, "any_of": ["unified", "single loyalty", "one loyalty", "online and store", "omnichannel loyalty"]},
+            {"label": "customer retention or repeat purchase outcome", "points": 2, "any_of": ["repeat purchase", "retention", "loyalty", "customer value", "customer engagement"]},
+            {"label": "France and Belgium or multi-market scope", "points": 1, "any_of": ["france and belgium", "france", "belgium", "multi-country", "two markets"]},
+            {"label": "business and customer outcome rather than activity only", "points": 1, "any_of": ["customer experience", "customer journey", "business outcome", "adoption", "activation"]}
+          ]
+        },
+        "role_purpose": {
+          "max_points": 6,
+          "concepts": [
+            {"label": "lead cross-functional delivery", "points": 2, "any_of": ["lead", "coordinate", "cross-functional", "matrix team"]},
+            {"label": "digital and omnichannel loyalty programme", "points": 2, "any_of": ["loyalty programme", "loyalty program", "digital", "omnichannel", "crm"]},
+            {"label": "from requirements or planning through pilot/launch", "points": 2, "any_of": ["requirements", "planning", "pilot", "implementation", "launch", "go-live"]}
+          ]
+        },
+        "deliverables": {
+          "max_points": 8,
+          "concepts": [
+            {"label": "project governance and plan", "points": 2, "any_of": ["governance", "project plan", "milestone", "roadmap"]},
+            {"label": "requirements and scope", "points": 1, "any_of": ["requirements", "scope"]},
+            {"label": "vendor and workstream coordination", "points": 1, "any_of": ["vendor", "supplier", "workstream"]},
+            {"label": "ten-store pilot or pilot delivery", "points": 2, "any_of": ["pilot", "ten stores", "10 stores"]},
+            {"label": "store readiness or training", "points": 1, "any_of": ["training", "store readiness", "change plan", "adoption"]},
+            {"label": "go/no-go or launch recommendation", "points": 1, "any_of": ["go/no-go", "go no go", "launch recommendation", "launch decision"]}
+          ]
+        },
+        "essential_requirements": {
+          "max_points": 8,
+          "concepts": [
+            {"label": "cross-functional project delivery evidence", "points": 2, "any_of": ["cross-functional", "project delivery", "complex project", "matrix"]},
+            {"label": "stakeholder influence", "points": 1.5, "any_of": ["stakeholder", "influence", "alignment"]},
+            {"label": "planning and delivery discipline", "points": 1.5, "any_of": ["planning", "milestone", "delivery", "project management"]},
+            {"label": "risk and issue management", "points": 1, "any_of": ["risk", "issue", "mitigation", "escalation"]},
+            {"label": "data and KPI literacy", "points": 1, "any_of": ["data", "kpi", "analytics", "metrics"]},
+            {"label": "working French plus professional English or equivalent", "points": 1, "any_of": ["french", "english", "bilingual", "language"]}
+          ]
+        },
+        "desirable_requirements": {
+          "max_points": 4,
+          "concepts": [
+            {"label": "retail, e-commerce, CRM or loyalty exposure as desirable", "points": 2, "any_of": ["retail", "e-commerce", "ecommerce", "crm", "loyalty"]},
+            {"label": "multi-site, vendor or international exposure", "points": 1, "any_of": ["multi-site", "multisite", "vendor", "supplier", "international", "belgium"]},
+            {"label": "distinguishes desirable from mandatory", "points": 1, "any_of": ["desirable", "preferred", "advantage", "nice to have"]}
+          ]
+        },
+        "constraints_conditions": {
+          "max_points": 4,
+          "concepts": [
+            {"label": "pilot and launch timeline", "points": 1, "any_of": ["16 weeks", "week 16", "22 weeks", "week 22", "24 weeks", "launch timeline"]},
+            {"label": "budget or peak trading constraint", "points": 1, "any_of": ["650,000", "650000", "budget", "peak trading", "christmas"]},
+            {"label": "Lille hybrid and travel", "points": 1, "any_of": ["lille", "hybrid", "remote", "travel"]},
+            {"label": "salary or permanent contract", "points": 1, "any_of": ["52,000", "60,000", "salary", "permanent", "cdi", "bonus"]}
+          ]
+        },
+        "success_measures": {
+          "max_points": 4,
+          "concepts": [
+            {"label": "delivery time and budget", "points": 1, "any_of": ["on time", "timeline", "budget", "milestone"]},
+            {"label": "store readiness or adoption", "points": 1, "any_of": ["store readiness", "adoption", "training completion"]},
+            {"label": "quality, defects or risk reporting", "points": 1, "any_of": ["defect", "quality", "risk reporting", "issues"]},
+            {"label": "customer enrolment, activation or repeat purchase", "points": 1, "any_of": ["enrolment", "enrollment", "activation", "repeat purchase", "customer uptake"]}
+          ]
+        }
+      },
+      "penalties": [
+        {"label": "age-coded or exclusionary ‘digital native’ language", "points": -2, "patterns": ["digital native", "young and dynamic", "young profile"]},
+        {"label": "unnecessary school pedigree requirement", "points": -2, "patterns": ["top school", "grande ecole required", "grande école required", "elite school"]},
+        {"label": "overly narrow retail tenure requirement", "points": -1, "patterns": ["five years in retail required", "5 years in retail required", "retail only"]},
+        {"label": "native-language requirement without justification", "points": -1, "patterns": ["native french", "french mother tongue", "mother tongue french"]}
+      ]
+    },
+    "competency_scorecard": {
+      "max_points": 40,
+      "selection_max": 20,
+      "weight_max": 10,
+      "indicator_max": 10,
+      "competencies": {
+        "project_planning": {"selection_points": 4, "target_weight": [15, 25], "indicator_terms": ["milestone", "dependency", "resource", "deadline", "plan", "deliver"]},
+        "stakeholder_management": {"selection_points": 4, "target_weight": [15, 25], "indicator_terms": ["align", "influence", "stakeholder", "conflict", "decision", "commitment"]},
+        "change_management": {"selection_points": 3, "target_weight": [10, 20], "indicator_terms": ["adoption", "training", "readiness", "change", "resistance", "communication"]},
+        "customer_orientation": {"selection_points": 2.5, "target_weight": [10, 20], "indicator_terms": ["customer", "journey", "experience", "need", "feedback", "value"]},
+        "data_decision": {"selection_points": 2.5, "target_weight": [10, 15], "indicator_terms": ["data", "kpi", "metric", "analyse", "analyze", "evidence"]},
+        "risk_management": {"selection_points": 3, "target_weight": [10, 15], "indicator_terms": ["risk", "mitigation", "issue", "escalate", "contingency", "dependency"]},
+        "communication": {"selection_points": 2, "target_weight": [10, 20], "indicator_terms": ["communicate", "audience", "clarity", "present", "brief", "report"]},
+        "commercial_awareness": {"selection_points": 2, "target_weight": [10, 15], "indicator_terms": ["cost", "benefit", "commercial", "revenue", "trade-off", "value"]},
+        "digital_fluency": {"selection_points": 2, "target_weight": [5, 15], "indicator_terms": ["digital", "omnichannel", "crm", "e-commerce", "technical", "customer journey"]},
+        "retail_experience": {"selection_points": 0, "target_weight": [0, 5], "indicator_terms": ["retail"]}
+      },
+      "observable_verbs": ["delivers", "creates", "identifies", "analyses", "analyzes", "coordinates", "influences", "prioritises", "prioritizes", "resolves", "communicates", "measures", "escalates", "adapts", "builds", "secures"]
+    }
+  },
+  "round2": {
+    "channels": {
+      "max_points": 35,
+      "selection_points": {
+        "internal_mobility": 5,
+        "apec": 6,
+        "welcome_jungle": 6,
+        "linkedin_sourcing": 8,
+        "referrals": 4,
+        "indeed": 3,
+        "specialist_board": 6,
+        "agency": 1,
+        "school_alumni": 2,
+        "social_organic": 1
+      },
+      "base_max": 20,
+      "coverage_bonuses": [
+        {"label": "combines active and passive sourcing", "points": 4, "requires_tags": ["active", "passive"]},
+        {"label": "considers internal and external talent", "points": 2, "requires_tags": ["internal", "external"]},
+        {"label": "combines targeted and broad reach", "points": 2, "requires_tags": ["targeted", "broad"]},
+        {"label": "uses at least three complementary channels", "points": 2, "minimum_channels": 3}
+      ],
+      "efficiency": {
+        "max_points": 5,
+        "full_score_budget_ratio": 0.85,
+        "within_budget_points": 3
+      },
+      "penalties": [
+        {"label": "over-fragmented campaign", "points_per_extra": -1, "above_channels": 5},
+        {"label": "agency consumes most of budget", "points": -3, "channel": "agency", "minimum_budget_share": 0.70}
+      ]
+    },
+    "job_advert": {
+      "max_points": 30,
+      "concepts": [
+        {"label": "clear and searchable role title", "points": 3, "any_of": ["chef de projet", "project manager", "digital", "omnicanal", "omnichannel"]},
+        {"label": "company and transformation context", "points": 3, "any_of": ["maison nova", "62 stores", "france and belgium", "retailer", "retail"]},
+        {"label": "business mission and customer outcome", "points": 4, "any_of": ["loyalty programme", "loyalty program", "customer journey", "unified", "repeat purchase", "customer experience"]},
+        {"label": "cross-functional project responsibilities", "points": 4, "any_of": ["cross-functional", "marketing", "it", "store operations", "vendor", "stakeholder"]},
+        {"label": "planning, pilot and risk responsibilities", "points": 4, "any_of": ["project plan", "milestone", "pilot", "risk", "issue", "go/no-go", "launch"]},
+        {"label": "evidence-based essential criteria", "points": 4, "any_of": ["demonstrated experience", "track record", "project delivery", "stakeholder influence", "risk management", "data"]},
+        {"label": "retail/CRM exposure positioned as desirable rather than mandatory", "points": 2, "any_of": ["desirable", "preferred", "nice to have", "advantage", "retail exposure", "crm exposure"]},
+        {"label": "transparent employment proposition", "points": 2, "any_of": ["52,000", "60,000", "salary", "hybrid", "two remote", "bonus", "lille", "permanent", "cdi"]},
+        {"label": "inclusive and accessible recruitment statement", "points": 2, "any_of": ["reasonable adjustment", "accommodation", "accessible", "inclusion", "all qualified", "diverse candidates"]},
+        {"label": "clear application or selection process", "points": 2, "any_of": ["apply", "application", "interview", "selection process", "assessment", "closing date"]}
+      ],
+      "penalties": [
+        {"label": "age-coded wording", "points": -3, "patterns": ["digital native", "young and dynamic", "young team seeking"]},
+        {"label": "unnecessary elite-school filter", "points": -2, "patterns": ["top school", "grande ecole only", "grande école only"]},
+        {"label": "unjustified native-language filter", "points": -2, "patterns": ["native french", "mother tongue french", "french native only"]},
+        {"label": "inflated or rigid retail tenure", "points": -2, "patterns": ["minimum 5 years retail", "five years retail required", "retail experience mandatory"]}
+      ]
+    },
+    "boolean_string": {
+      "max_points": 15,
+      "concepts": [
+        {"label": "role-title synonyms", "points": 3, "all_groups": [["chef de projet", "project manager"], ["or"]]},
+        {"label": "digital and omnichannel terms", "points": 3, "any_of": ["digital", "omnicanal", "omnichannel"]},
+        {"label": "retail or e-commerce context", "points": 2, "any_of": ["retail", "distribution", "e-commerce", "ecommerce"]},
+        {"label": "CRM, loyalty or marketing domain", "points": 2, "any_of": ["crm", "fidélité", "fidelite", "loyalty", "marketing"]},
+        {"label": "correct Boolean operators", "points": 2, "all_groups": [["and"], ["or"]]},
+        {"label": "uses grouping or quotation marks", "points": 2, "any_of": ["(", ")", "\""]},
+        {"label": "avoids inappropriate demographic filters", "points": 1, "absence_of": ["young", "age", "male", "female", "native french"]}
+      ],
+      "penalties": [
+        {"label": "excessive AND restriction", "points": -2, "max_and_count": 5},
+        {"label": "inappropriate demographic or pedigree term", "points": -3, "patterns": ["young", "male", "female", "native french", "top school"]}
+      ]
+    },
+    "outreach_message": {
+      "max_points": 20,
+      "concepts": [
+        {"label": "personalised greeting", "points": 2, "any_of": ["camille", "bonjour camille", "hello camille"]},
+        {"label": "specific reason the profile is relevant", "points": 4, "any_of": ["crm", "loyalty", "retail clients", "multi-country", "app rollout", "agency experience"]},
+        {"label": "clear project mission and business impact", "points": 4, "any_of": ["unified loyalty", "omnichannel", "customer journey", "62 stores", "france and belgium", "business outcome"]},
+        {"label": "credible attraction proposition", "points": 3, "any_of": ["in-house", "ownership", "hybrid", "lille", "business impact", "lead the project"]},
+        {"label": "transparent or useful practical information", "points": 2, "any_of": ["hybrid", "salary", "52,000", "60,000", "permanent", "cdi", "lille"]},
+        {"label": "low-pressure call to action", "points": 3, "any_of": ["brief call", "15-minute", "15 minute", "conversation", "open to discussing", "no obligation"]},
+        {"label": "professional sign-off", "points": 1, "any_of": ["best regards", "kind regards", "cordialement", "thank you", "merci"]},
+        {"label": "appropriate length", "points": 1, "word_count_range": [60, 180]}
+      ],
+      "penalties": [
+        {"label": "generic mass-message language", "points": -2, "patterns": ["dear candidate", "exciting opportunity for anyone", "your profile caught my eye without"]},
+        {"label": "pressuring language", "points": -2, "patterns": ["reply today", "urgent response required", "must speak immediately"]}
+      ]
+    }
+  }
+}
